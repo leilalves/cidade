@@ -12,12 +12,13 @@ a {
 }
 
 header {
-    background-color: #1a4d8f;
+    background-color: #3c84e3;
     color: white;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -91,7 +92,7 @@ header h1 {
 
 .btn-banner {
     display: inline-block;
-    background-color: #1a4d8f;
+    background-color: #3c84e3;
     color: white;
     padding: 12px 20px;
     border-radius: 6px;
@@ -141,7 +142,7 @@ button:hover {
 }
 
 footer {
-    background-color: #005BAC;
+    background-color: #3c84e3;
     color: #ffffff;
     padding: 30px 20px;
     text-align: center;
@@ -202,3 +203,13 @@ footer {
     margin: 0;
 }
 
+.logo {
+  height: 200px;  
+  width: auto;
+ 
+
+   
+  
+}
+
+   
