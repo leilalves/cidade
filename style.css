@@ -22,6 +22,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+
 }
 
 header h1 {
@@ -102,6 +103,7 @@ header h1 {
 
 .btn-banner:hover {
     background-color: #163a6b;
+    
 }
 
 main {
@@ -174,6 +176,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
+
 }
 
 .livro {
@@ -184,7 +188,12 @@ footer {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     width: calc((100% / 3) - 13.33px);
     box-sizing: border-box;
+    cursor:pointer;
 }
+.livro:hover {
+    background-color: #DBEAFE;
+}
+
 
 .livro img {
     width: 200px;
